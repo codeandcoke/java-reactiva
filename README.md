@@ -6,3 +6,5 @@ También habrá algunos proyectos sobre Patrón Observer, Streams, Future y Comp
  - **IntroRxJava**: Proyecto con ejemplos de introducción a RxJava
  - **EjemploRetroFit**: Ejemplo de cómo consumir una API utilizando RetroFit
  - **EjemploRetroFitRxJava**: Ejemplo de cómo consumir una API utilizando RetroFix y RxJava 
+ - **myshop-webflux**: Ejemplo de Servicio Web utilizando WebFlux
+ - **myshop-webflux-client**: Ejemplo de cliente WebClient que consume un Servicio Web con WebFlux
