@@ -13,10 +13,14 @@ public class ProductServiceImpl implements ProductService {
     @Autowired
     private ProductRepository productRepository;
 
-
     @Override
     public Flux<Product> findAllProducts() {
         return productRepository.findAll();
+    }
+
+    @Override
+    public Mono<Product> findProductByName(String name) {
+        return productRepository.findByName(name);
     }
 
     @Override
